@@ -1,0 +1,10 @@
+{
+  "name": "libhashring",
+  "version": "0.0.0",
+  "private": true,
+  "gypfile": true,
+  "dependencies": {
+    "bignum": "^0.12.5",
+    "cuint": "^0.2.2"
+  }
+}
