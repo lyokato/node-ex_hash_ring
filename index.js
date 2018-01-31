@@ -26,7 +26,7 @@ module.exports = class ExHashRing {
     const hash = this._hash(key)
 
     let min = 0
-    let max = this._items.length
+    let max = this._items.length - 1
 
     while (true) {
       const result = this._tryToFind(hash, min, max)
